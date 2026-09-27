@@ -1,13 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main {
+    public static void main(String[] args) {
+        double myLunchCost = 12.50;
+        int numberOfKids = 3;
+        boolean isRaining = false;
+        double gasPrice = 3.75;
+        int favoriteNumber = 7;
+        double shoeSize = 9.5;
+        int birthMonth = 5;
+        String fullName = "John Doe";
+        System.out.println("My lunch cost: $" + myLunchCost);
+        System.out.println("Number of kids: " + numberOfKids);
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("Gas price: $" + gasPrice);
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Shoe size: " + shoeSize);
+        System.out.println("Birth month: " + birthMonth);
+        System.out.println("Full name: " + fullName);
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
     }
 }
